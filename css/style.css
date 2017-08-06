@@ -1,5 +1,191 @@
-.my-col {
-  border: 1px solid red;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,500');
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+a, p, span {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 0px 0px 0px 15px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.text-vertical-center {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-vertical-center h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+}
+
+.btn-dark {
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-light {
+  border-radius: 0;
+  color: #333;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.center p {
+  text-align: justify;
+}
+
+.block-a {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.block-b {
+  background-color: rgb(138, 219, 245);
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.block-c {
+  width: 100%;
+  height: 600px;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: inherit;
+  background-size: cover;
+  z-index: -1;
+}
+
+.block-d {
+  min-height: 800px;
+  background-color: white;
+}
+.block-e{
+  display: table;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  background: url(../img/ny-time-s.jpg) no-repeat center center fixed;
+
+}
+
+.port {
+  display: flex;
+  align-items: center;
+}
+
+.port img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 65px;
+}
+
+.port a {
+  margin: 0 auto;
+}
+
+footer {
+  background-color: white;
+}
+
+.socium {
+  min-width: 100px;
   height: 100px;
-  background-color: rgb(98, 48, 175)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socium a {
+  color: #242424;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
 }
